@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "xml",
+                "json"
+            ],
+            "default": "xml"
+        },
+        "roundid": {
+            "required": true,
+            "type": "string"
+        },
+        "playerid": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
